@@ -6,6 +6,6 @@
         "serve": "browser-sync start --server dist --files \"dist/*.html, dist/assets/css/*.css\"",
         "build": "npm run mjml-build && npm run sass-build",
         "mjml-build": "mkdir -p dist && mjml index.mjml --config.minify true -o dist/index.html",
-        "sass-build": "mkdir -p dist/assets/css && node-sass --output-style compressed ./assets/scss/main.scss dist/assets/css/main.min.css"
+        "sass-build": "mkdir -p dist/assets/css && node-sass --output-style compressed ./assets/scss/style.scss dist/assets/css/styles.css"
     }
 }
