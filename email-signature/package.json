@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "npm run mjml-watch & npm run sass-watch & npm run serve",
+        "mjml-watch": "mkdir -p dist && mjml -w index.mjml -o dist/index.html",
+        "sass-watch": "mkdir -p dist/assets/css && node-sass -w ./assets/scss/ -o dist/assets/css/",
+        "serve": "browser-sync start --server dist --files \"dist/*.html, dist/assets/css/*.css\"",
+        "build": "npm run mjml-build && npm run sass-build",
+        "mjml-build": "mkdir -p dist && mjml index.mjml --config.minify true -o dist/index.html",
+        "sass-build": "mkdir -p dist/assets/css && node-sass --output-style compressed ./assets/scss/main.scss dist/assets/css/main.min.css"
+    }
+}

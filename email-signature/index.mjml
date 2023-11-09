@@ -1,0 +1,63 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email Signature</mj-title>
+    <mj-include path="assets/css/styles.css" type="css" css-inline="inline" />
+    <mj-attributes>
+      <mj-class name="color-gray" color="#919191" />
+      <mj-class name="color-brand" color="#715e47" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body width="500px">
+    <mj-section padding-bottom="0">
+      <mj-column width="270px" padding-top="0">
+        <mj-image width="270px" padding-top="0" padding-left="0" padding-right="20px" padding-bottom="0" src="http://www.lakeisle.co.uk/email/img/logo.png" href="https://lakeisle.co.uk" />
+      </mj-column>
+      <mj-column width="230px">
+        <mj-text font-size="20px" padding-left="10px" padding-top="0" padding-bottom="0"><span class="color-brand">The Lake Isle</span></mj-text>
+        <mj-text css-class="color-gray" padding-top="6px" padding-left="10px" font-size="12px" padding-bottom="0"><span class="color-gray">Receptrion</span></mj-text>
+        <mj-table font-size="12px" padding-left="10px">
+          <tr style="text-align:left;padding:15px 0;">
+            <td style="padding:0 0 0 0; font-weight:bold; width:20px" class="color-brand">T:</td>
+            <td style="text-align:left padding-left:0;"><a href="tel:+441572822951" class="link color-gray">(+44) 01572 822951</a></td>
+          </tr>
+          <tr style="text-align:left;padding:15px 0;">
+            <td style="padding:0 0 0 0; font-weight:bold; width:20px" class="color-brand">E:</td>
+            <td style="text-align:left padding-left:0;"><a href="mailto:info@lakeisle.co.uk" class="link color-gray">info@lakeisle.co.uk</a></td>
+          </tr>
+          <tr style="text-align:left;padding:15px 0;">
+            <td style="padding:0 0 0 0; font-weight:bold; width:20px" class="color-brand">W:</td>
+            <td style="text-align:left padding-left:0;"><a href="https://lakeisle.co.uk?source=ef" class="link color-gray" target="_blank">www.lakeisle.co.uk</a></td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 0 15px 0">
+      <mj-column>
+        <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column padding-right="0" width="35px" vertical-align="middle">
+        <mj-image width="30px" padding-top="0" padding-left="0" padding-right="30px" padding-bottom="0" src="https://lakeisle.co.uk/wp-content/uploads/2023/11/facebook.png" href="https://www.facebook.com/TheLakeIsle/" />
+      </mj-column>
+      <mj-column width="35px" vertical-align="middle">
+        <mj-image width="30px" padding-top="0" padding-left="0" padding-bottom="0" src="https://lakeisle.co.uk/wp-content/uploads/2023/11/facebook.png" href="https://www.facebook.com/TheLakeIsle/" />
+      </mj-column>
+      <mj-column width="430px" vertical-align="middle" padding-right="0">
+        <mj-text font-size="13px" padding-left="10px" padding-right="0" align="right" padding-top="0" padding-bottom="0"><span class="color-gray">16 High Street East, Uppingham, Rutland LE15 9PZ</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="15px 0 15px 0">
+      <mj-column padding="0">
+        <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 0 15px 0">
+      <mj-column padding="0">
+        <mj-text font-size="11px" line-height="14px" align="justify" padding="0">
+          <span class="color-gray">This message contains confidential information and is intended only for the recipients named in the email. If you are not the intended recipient you should not disseminate, distribute or copy this e-mail. Please notify info@lakeisle.co.uk immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. E-mail transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. Lake Isle therefore does not accept liability for any errors or omissions in the contents of this message, which arise as a result of e-mail transmission. If verification is required please request a hard-copy version.</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

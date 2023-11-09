@@ -1,0 +1,16 @@
+$main-text-color: #919191;
+$main-brand-color: #715e47;
+body {
+	color: $main-text-color;
+}
+a.link {
+	border: none;
+	text-decoration: none;
+	color: $main-text-color;
+}
+.color-gray {
+	color: $main-text-color;
+}
+.color-brand {
+	color: $main-brand-color;
+}
