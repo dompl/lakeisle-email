@@ -36,20 +36,25 @@
         <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0" />
       </mj-column>
     </mj-section>
-    <mj-section padding="0">
-      <mj-column padding-right="0" width="35px" vertical-align="middle">
+    <mj-section padding="0"> 
+      <mj-column padding-right="0" width="30px" vertical-align="middle">
         <mj-image width="30px" padding-top="0" padding-left="0" padding-right="30px" padding-bottom="0" src="https://lakeisle.co.uk/wp-content/uploads/2023/11/facebook.png" href="https://www.facebook.com/TheLakeIsle/" />
       </mj-column>
-      <mj-column width="35px" vertical-align="middle">
+      <mj-column width="30px" vertical-align="middle">
         <mj-image width="30px" padding-top="0" padding-left="0" padding-bottom="0" src="https://lakeisle.co.uk/wp-content/uploads/2023/11/facebook.png" href="https://www.facebook.com/TheLakeIsle/" />
       </mj-column>
-      <mj-column width="430px" vertical-align="middle" padding-right="0">
+      <mj-column width="440px" vertical-align="middle" padding-right="0">
         <mj-text font-size="13px" padding-left="10px" padding-right="0" align="right" padding-top="0" padding-bottom="0"><span class="color-gray">16 High Street East, Uppingham, Rutland LE15 9PZ</span></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="15px 0 15px 0">
+    <mj-section padding="15px 0 0 0">
       <mj-column padding="0">
         <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0" />
+      </mj-column>
+    </mj-section>
+     <mj-section padding="0">
+      <mj-column padding="0">
+      IMAGE HERE
       </mj-column>
     </mj-section>
     <mj-section padding="0 0 15px 0">

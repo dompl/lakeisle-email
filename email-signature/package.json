@@ -2,7 +2,7 @@
     "scripts": {
         "start": "npm run mjml-watch & npm run sass-watch & npm run serve",
         "mjml-watch": "mkdir -p dist && mjml -w index.mjml -o dist/index.html",
-        "sass-watch": "mkdir -p dist/assets/scss && node-sass -w ./assets/scss/ -o dist/assets/css/",
+        "sass-watch": "mkdir -p assets/css && node-sass -w assets/scss/ -o assets/css/",
         "serve": "browser-sync start --server dist --files \"dist/*.html, dist/assets/css/*.css\"",
         "build": "npm run sass-build && npm run mjml-build",
         "sass-build": "mkdir -p dist/assets/css && node-sass --output-style compressed ./assets/scss/style.scss dist/assets/css/styles.css",
@@ -10,6 +10,7 @@
         "inline-css": "mjml-inliner -i dist/index.html -o dist/index.html"
     },
     "devDependencies": {
-        "mjml-inliner": "latest"
+        "browser-sync": "^2.29.3",
+        "node-sass": "^9.0.0"
     }
 }
