@@ -36,14 +36,14 @@
         <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0" />
       </mj-column>
     </mj-section>
-    <mj-section padding="0"> 
-      <mj-column padding-right="0" width="30px" vertical-align="middle">
-        <mj-image width="30px" padding-top="0" padding-left="0" padding-right="30px" padding-bottom="0" src="https://lakeisle.co.uk/wp-content/uploads/2023/11/facebook.png" href="https://www.facebook.com/TheLakeIsle/" />
+    <mj-section padding="0">
+      <mj-column padding-right="0" vertical-align="middle" width="70px">
+        <mj-image width="30px" padding-top="0" padding-left="0" padding-right="30px" padding-bottom="0" src="https://lakeisle.co.uk/email/2024/images/facebook.png" href="https://www.facebook.com/TheLakeIsle/" />
       </mj-column>
-      <mj-column width="30px" vertical-align="middle">
-        <mj-image width="30px" padding-top="0" padding-left="0" padding-bottom="0" src="https://lakeisle.co.uk/wp-content/uploads/2023/11/facebook.png" href="https://www.facebook.com/TheLakeIsle/" />
+      <mj-column padding-right="0" vertical-align="middle" width="70px">
+        <mj-image width="30px" padding-top="0" padding-left="0" padding-bottom="0" src="https://lakeisle.co.uk/email/2024/images/instagram.png" href="https://www.instagram.com/thelakeisle/" />
       </mj-column>
-      <mj-column width="440px" vertical-align="middle" padding-right="0">
+      <mj-column width="360px" vertical-align="middle" padding-right="0">
         <mj-text font-size="13px" padding-left="10px" padding-right="0" align="right" padding-top="0" padding-bottom="0"><span class="color-gray">16 High Street East, Uppingham, Rutland LE15 9PZ</span></mj-text>
       </mj-column>
     </mj-section>
@@ -52,12 +52,12 @@
         <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0" />
       </mj-column>
     </mj-section>
-     <mj-section padding="0">
+     <mj-section padding="10px 0 10px 0">
       <mj-column padding="0">
-      IMAGE HERE
+        <mj-image width="500px" padding="0" src="https://lakeisle.co.uk/email/2024/images/email-footer.png" href="https://lakeisle.co.uk/?email-nogitfication-message" />
       </mj-column>
     </mj-section>
-    <mj-section padding="0 0 15px 0">
+    <mj-section padding="0 0 0 0">
       <mj-column padding="0">
         <mj-text font-size="11px" line-height="14px" align="justify" padding="0">
           <span class="color-gray">This message contains confidential information and is intended only for the recipients named in the email. If you are not the intended recipient you should not disseminate, distribute or copy this e-mail. Please notify info@lakeisle.co.uk immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. E-mail transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. Lake Isle therefore does not accept liability for any errors or omissions in the contents of this message, which arise as a result of e-mail transmission. If verification is required please request a hard-copy version.</span>
